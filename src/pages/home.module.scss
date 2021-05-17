@@ -1,1 +1,15 @@
-// TODO
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  img {
+    margin-bottom: 4rem;
+  }
+  strong {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--Heading);
+  }
+}
