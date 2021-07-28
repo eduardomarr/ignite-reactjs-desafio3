@@ -1,8 +1,9 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { FiCalendar, FiUser } from 'react-icons/fi';
+
 import { getPrismicClient } from '../services/prismic';
 
-import { FiCalendar, FiUser } from 'react-icons/fi'
 import commonStyles from '../styles/common.module.scss';
 import styles from './home.module.scss';
 
@@ -63,7 +64,7 @@ export default function Home({ postsPagination }: HomeProps) {
             <p>Joseph Oliveira</p>
           </div>
 
-          <button>Carregar mais posts</button>
+          <button type="button">Carregar mais posts</button>
         </section>
       </main>
     </>

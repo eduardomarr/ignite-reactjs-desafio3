@@ -12,4 +12,40 @@
     font-size: 1.75rem;
     color: var(--Heading);
   }
+  h2 {
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: var(--Body);
+    margin-top: 0.5rem;
+  }
+
+  .authorContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 1.625rem 0 3.125rem;
+  }
+
+  svg {
+    color: var(--Info);
+    margin-right: 0.625rem;
+  }
+
+  p {
+    color: var(--Info);
+    margin-right: 1.8rem;
+  }
+
+  button {
+    color: var(--Highlight);
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+
+    transition: filter 0.4s;
+
+    &:hover {
+      filter: brightness(0.7)
+    }
+  }
 }
